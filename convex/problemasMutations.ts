@@ -12,4 +12,4 @@ export const createProblem = mutation({
       description: args.description,
     });
   },
-});
+}).withPublicAccess();

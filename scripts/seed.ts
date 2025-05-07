@@ -9,7 +9,7 @@ async function main() {
     description: "Dado dois inteiros, retorne a soma deles.",
   });
 
-  await client.mutation(api.problemasMutations.createProblem, {
+  await client.mutation(api.problemas.createProblem, {
     title: "Produto Simples",
     description: "Dado dois inteiros, retorne o produto deles.",
   });
